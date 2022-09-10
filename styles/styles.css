@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #E5E5E5;
+    width: 1200px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+/* .main content */
+.main-content {
+    background-color: #fff;
+    margin: 120px auto 50px 100px;
+}
+
+/* about user */
+.about-user {}
+
+/* IT-Project-Manager */
+.IT-Project-Manager {}
+
+/* Oksana-Sudoma */
+.Oksana-Sudoma {}
+
+/* about projects  */
+.projects {
+    margin: 120px auto 50px 100px;
+    color: #000000;
+}
+
+.project-title {
+    font-size: 22px;
+    color: #000000;
+    margin: 120px auto 50px 100px;
+
+}
+
+.about {}
+
+/* work styles */
+.work {
+    margin-top: 60px;
+}
+
+/* education styles */
+.education {}
+
+
+/* sidebar styles*/
+
+
+/* image style */
+.photo {
+    width: 370px;
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+
+.sidebar {
+    background-color: #1E2939;
+    width: 370px;
+    scroll-behavior: smooth;
+    color: #fff;
+
+
+}
+
+.soft-skills {}
