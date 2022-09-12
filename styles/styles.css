@@ -8,35 +8,55 @@ body {
     flex-direction: row-reverse;
     background-color: #E5E5E5;
     width: 1200px;
-    margin: 0 auto;
+    height: auto;
+    margin: 40px auto;
     color: #000000;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* .main content */
 .main-content {
     background-color: #fff;
-    margin: 120px auto 50px 100px;
+    margin: 40px 40px 40px auto;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* about user */
-.about-user {}
+.about-user {
+    margin-right: 150px;
+}
 
 /* IT-Project-Manager */
 .IT-Project-Manager {}
 
 /* Oksana-Sudoma */
-.Oksana-Sudoma {}
+.Oksana-Sudoma {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+/* parag1 */
+.parag1 {
+    color: #595959;
+
+}
 
 /* about projects  */
-.projects {
-    margin: 120px auto 50px 100px;
+.projects a {
+    color: #595959;
+
     color: #000000;
+    text-decoration: none;
 }
 
 .project-title {
     font-size: 22px;
     color: #000000;
-    margin: 120px auto 50px 100px;
+
 
 }
 
@@ -47,31 +67,108 @@ body {
     margin-top: 60px;
 }
 
+/* company1-3 */
+.company1 {
+    color: #FB6D3A
+}
+
+/* ul1 */
+.ul1 {
+    color: #595959;
+    margin-right: 100px;
+}
+
+/* company2 */
+.company2 {
+    color: #FB6D3A
+}
+
+/* ul2 */
+.ul2 {
+    color: #595959;
+    margin-right: 100px;
+}
+
+/* company3 */
+.company3 {
+    color: #FB6D3A
+}
+
+/* ul3 */
+.ul3 {
+    color: #595959;
+    margin-right: 100px;
+}
+
 /* education styles */
+
 .education {}
 
+/* university */
+.university {
+    color: #FB6D3A;
+}
+
+.ul4 {
+    color: #595959;
+}
 
 /* sidebar styles*/
-
+.sidebar-content {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #1E2939;
+    color: #fff
+}
 
 /* image style */
 .photo {
-    width: 370px;
+    width: 300px;
     display: block;
-    margin-top: 120px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* phone */
+.phone a,
+.email a,
+.website a {
+    color: #595959;
+    text-decoration: none;
+    width: 183px;
+    height: 83px;
+    left: 80px;
+    top: 485px;
+}
 
 .sidebar {
     background-color: #1E2939;
     width: 370px;
     scroll-behavior: smooth;
     color: #fff;
-
+    height: auto;
+    margin: 40px auto 40px 40px;
 
 }
 
 .soft-skills {}
+
+.liorange {
+    padding: 0;
+}
+
+.liorange li {
+    list-style: none;
+}
+
+.liorange li::before {
+    color: #FB6D3A;
+    content: '\270E';
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 5px;
+}
